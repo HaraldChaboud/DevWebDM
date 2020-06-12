@@ -18,8 +18,7 @@ function storeLocalContent(fName, lName, pCode) {
   window.localStorage.setItem('lastName', lName);
   window.localStorage.setItem('postCode', pCode);
 }
-function clearLocalContent(){
-  window.localStorage.setItem('firstName', '');
-  window.localStorage.setItem('lastName', '');
-  window.localStorage.setItem('postCode', '');
+function clearLocalContent(fName,lName,pCode){
+window.localStorage.clear();	
+
 }
